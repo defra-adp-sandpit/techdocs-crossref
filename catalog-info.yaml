@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: adp-portal-docs-crossref
+  annotations:
+    github.com/project-slug: defra-adp-sandpit/techdocs-external
+    backstage.io/techdocs-entity: component:default/adp-portal-docs-external
+
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: FCP Grants
